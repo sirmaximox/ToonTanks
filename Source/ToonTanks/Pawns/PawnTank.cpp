@@ -27,6 +27,7 @@ void APawnTank::HandleDestruction()
 {
 	Super::HandleDestruction();
 	// Hide Player. TODO - Create new function to handle this.
+	UE_LOG(LogTemp, Warning, TEXT("Me muri :("));
 }
 
 // Called every frame

@@ -22,6 +22,7 @@ public:
 	// Sets default values for this component's properties
 	UHealthComponent();
 
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

@@ -10,9 +10,10 @@ public class ToonTanks : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		PublicIncludePaths.Add("ToonTanks/");
 
-		PublicIncludePaths.Add("ToonTanks /");
+		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

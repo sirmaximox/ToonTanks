@@ -10,9 +10,9 @@ public class ToonTanks : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PublicIncludePaths.Add("ToonTanks /");
+		PublicIncludePaths.Add("ToonTanks/");
 		
-		PublicIncludePaths.Add("ToonTanks / MyControllers /");
+		PublicIncludePaths.Add("ToonTanks/MyControllers/");
 
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

@@ -4,18 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
-#include "PlayerControllerBasic.generated.h"
+#include "PlayerControllerBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class TOONTANKS_API APlayerControllerBasic : public APlayerController
+class TOONTANKS_API APlayerControllerBase : public APlayerController
 {
 	GENERATED_BODY()
-	
-public:
-	void GetTest(int32 test);
 
-	bool testeo;
+public:
+
+	void SetPlayerEnabledState(bool SetPlayerEnabled);
+	
 };
